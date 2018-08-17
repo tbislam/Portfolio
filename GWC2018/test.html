@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+<title>W-ECO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Style the close button */
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.topright:hover {color: red;}
+</style>
+</head>
+<body>
+
+<p>Click on the x button in the top right corner to close the current tab:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Our Mission')" id="defaultOpen">Our Mission</button>
+  <button class="tablinks" onclick="openCity(event, 'Natural Brands')">Natural Brands</button>
+  <button class="tablinks" onclick="openCity(event, 'Volunteer')">Volunteer</button>
+</div>
+
+<div id="Our Mission" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Our Mission</h3>
+  <p>  <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 80px;
+        left: 16px;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+
+    .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    }
+    </style>
+    </head>
+    <body>
+
+
+    <div class="container">
+      <img src="forest2.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left"><h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('Footprint Quiz').style.display='block'">Footprint Quiz</button></h6></div>
+      <div class="top-left"><h1 class="w3-jumbo w3-text-white w3-hide-small"><b>OUR MISSION</b></h1></div>
+      <div class="bottom-right"><h4 class="w3-text-white">Take the quiz to see your impact on the environment</h4></div>
+      <div class="centered"><h3 class="w3-text-white"><i>"The first step toward change is awareness." -Nathanial Branden</i></h3></div>
+    </div>
+
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+  <!-- Blog entries -->
+  <div class="w3-col l8 s12">
+
+    <!-- Blog entry -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+      <div class="w3-center">
+        <h3>TODAY'S ISSUES</h3>
+      </div>
+
+  <!--our mission statment and Image-->
+      <div class="w3-justify">
+        <img src="/w3images/girl_hat.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+        <p><strong>Save</strong></p>
+        <p>...</P>
+        <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>          <p class="w3-clear"></p>
+        <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+          <hr>
+            <div class="w3-col l2 m3">
+              <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <span class="w3-opacity w3-medium"></span>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Image post #1 -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+      <div class="w3-center">
+        <h3>TITLE HEADING</h3>
+        <h5>Title description, <span class="w3-opacity">April 23, 2016</span></h5>
+      </div>
+
+      <div class="w3-justify">
+        <img src="/w3images/man_hat.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+        <p><strong>Hats!</strong> The trend this summer is hats for men!</p>
+        <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+          mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+        <p class="w3-clear"></p>
+
+        <!-- -->
+        <div id="demo2" style="display:none">
+          <div class="w3-row">
+            <hr>
+            <div class="w3-col l2 m3">
+              <img src="/w3images/girl_train.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <span class="w3-opacity w3-medium"</span><
+            </div>
+          </div>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="/w3images/girl.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <span class="w3-opacity w3-medium"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image post 2 -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+      <div class="w3-center">
+        <h3>TITLE HEADING</h3>
+        <h5>Title description, <span class="w3-opacity">April 7, 2016</span></h5>
+      </div>
+
+      <div class="w3-justify">
+        <img src="/w3images/runway.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+        <p><strong>Dont miss!</strong> The runway in New York City this weekend is gonna be legendary!</p>
+        <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+          mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+        <p class="w3-clear"></p>
+
+        <!-- images side by side-->
+        <div id="demo3" style="display:none">
+          <hr>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="/w3images/girl_mountain.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <span class="w3-opacity w3-medium"></span>
+            </div>
+          </div>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="/w3images/boy.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <span class="w3-opacity w3-medium"></span>
+            </div>
+          </div>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="/w3images/girl_hood.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <span class="w3-opacity w3-medium"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- END -->
+
+  </div>
+
+  <!-- About/Information menu -->
+  <div class="w3-col l4">
+
+    <!-- Fun Fact -->
+    <div class="w3-margin">
+      <img src="coconut.jpg" alt="img" style="width:390px" style="height:200px">
+      <div class="w3-container w3-black" style="width:390px">
+        <h4>Did you know...</h4>
+        <p>People in third world countries use different parts of the coconut tree and fruit as a natural resource to build mats, baskets, brooms and more.</p>
+      </div>
+    </div>
+    <hr>
+
+
+    <!-- Plant a Tree -->
+    <div class="w3-white w3-margin">
+      <div class="w3-container w3-padding w3-black">
+        <h4>Plant a Tree</h4>
+      </div>
+      <div class="w3-container w3-white">
+        <div class="w3-container w3-display-container" style="height:280px">
+          <img src="cutTree.jpg" style="height:195px">
+          <h5>Plant a tree and name it after you and see its progress.</h5>
+          <span class="w3-display-middle">Your AD Here</span>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Donate/Pic with Link -->
+    <div class="w3-white w3-margin">
+      <div class="w3-container w3-padding w3-black">
+        <h4>Donate Now</h4>
+      </div>
+      <div class="w3-container w3-white">
+        <div class="w3-container w3-display-container" style="height:285px">
+          <img src="panda.jpg" style= "height:195px">
+          <h5><p>Your donation can help make sure that more of these little guys smile.</p></h5>
+          <span class="w3-display-middle"></span>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Post of the day -->
+    <div class="w3-white w3-margin">
+      <div class="w3-container w3-padding w3-black">
+        <h4>Picture of the Day</h4>
+      </div>
+      <div class="w3-container w3-white">
+        <div class="w3-container w3-display-container" style="height:290px">
+          <img src="mountain.jpg" style= "height:225px">
+          <h5><p>Taken in Peru</p></h5>
+          <span class="w3-display-middle"></span>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!-- END of About/Recommendations/Volunteer Menu -->
+  </div>
+
+  <!-- END GRID -->
+  </div>
+
+  <!-- END w3-content -->
+  </div>
+
+  <!-- Footprint Quiz -->
+
+  <div id="Footprint Quiz" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content" style="padding:32px">
+      <div class="w3-container w3-white">
+        <i onclick="document.getElementById('Footprint Quiz').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+        <h2 class="w3-wide">Footprint Quiz</h2>
+        <a href="https://www.earthday.org/take-action/footprint-calculator/" target="_blank">Footprint Quiz!</a>
+    </div>
+
+
+
+
+
+  <script>
+
+  // Like button
+  function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+  }
+  </script>
+</p>
+</div>
+
+<div id="Natural Brands" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Volunteer" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>

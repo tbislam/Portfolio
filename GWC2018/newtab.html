@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/coffeehouse.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+* {
+    box-sizing: border-box;
+}
+
+p.outset {border-style: outset;}
+/* Brand border code */
+
+{margin:25px;}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 8px;
+}
+
+/* End of border code */
+
+
+/* START OF HOVER PICTURE CODE */
+.container {
+    position: relative;
+    width: 50%;
+    text-align: center
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100px;
+  height: 100px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+/* END OF HOVER PICTURE CODE */
+table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+</style>
+<body>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">RECOMMENDATIONS</span></h5>
+
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Tips');" id="myLink">
+        <div class="w3-col s6 tablink">Tips</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Brands');">
+        <div class="w3-col s6 tablink">Brands</div>
+      </a>
+    </div>
+
+    <div id="Tips" class="w3-container menu w3-padding-48 w3-card">
+      <p class="outset"> Buy a reusable water bottle! 20,000 plastic water bottles per second are sold totalling <strong>500 billion </strong> per year... Most end up in the ocean as 91 percent doesn't get recylced.</p>
+      <p class="outset"> Use energy efficient light bulbs instead of regular bulbs. It will save you electricity, last longer, and save you money! </p>
+      <p class="outset"> Get involved with organizations like <a href="https://350.org"style="color:blue">350.org</a> and <a href="https://www.conservation.org/Pages/default.aspx" style="color:blue">conservation.org</a> where you can join rallies and volunteer in different ways </p>
+      <p class="outset"> While having your skincare routine, go for the organic face wash which is paraben-free, sulfate-free, and cruelty-free. </p>
+      <p class="outset"> Create a homemade compost bin to prevent waste going in landfills and you can provide the soil with nutrients. It will make your kitchen smell better and you will have less garbage </p>
+      <p class="outset"> Wash your Laundry in cold water instead of hot. It saves energy and prevents carbon pollution. Hot water uses 90% energy while cold water uses 10% </p>
+      <p class="outset"> Use public transportation a few times a week to avoid driving and regularly clean out your car to avoid making it heavier with junk. A heavier car will use more gas andmake sure your tires have enough air in them. </p>
+      <p class="outset"> Save water by fxing leaks, taking short showers, turn offf the tap when brushing your teeth, and boil only the water you require for cooking </p>
+      <p class="outset"> Ditch plastic bags. <strong>100 bllion </strong> are used daily and only <strong>1-3%</strong> are recycled. </p>
+    </div>
+
+    <div id="Brands" class="w3-container menu w3-padding-48 w3-card">
+    <!-- Brands -->
+      <table style="width:100%">
+      <tr>
+      <th>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.tesla.com"><img src="tesla.png" alt="tesla.com" class="image" style="width:100px;height:100px">
+              <p>Vehicles</p>
+              </div>
+              </div>
+      </th>
+
+      <th>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.patagonia.com/home/"><img src="pantagonia.png" alt="pantagonia.org" class="image" style="width:100px;height:100px">
+              <p><strong>Clothes</strong></p>
+              </div>
+              </div>
+      </th>
+      <th>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://numitea.com"><img src="Numi.png" alt="numitea.com" class="image" style="width:100px;height:100px">
+              <p><strong>Tea</strong></p>
+              </div>
+              </div>
+      </th></strong></p>
+      </tr>
+      <tr>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.toms.com"><img src="TOMS.jpg" alt="toms.com" class="image" style="width:100px;height:100px">
+              <p><strong>Shoes</strong></p>
+              </div>
+              </div>
+      </td>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.seventhgeneration.com"><img src="7th.png" alt="seventhgeneration.com" class="image" style="text-align:center;width:100px;height:100px" >
+              <p><strong>Home Products</strong></p>
+              </div>
+              </div>
+      </td>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="http://beyondmeat.com"><img src="beyondmeat.png" alt="bodymeat.com" class="image" style="width:100px;height:100px">
+              <p><strong>Food</strong></p>
+              </div>
+              </div>
+      </td>
+      </tr>
+      <tr>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="http://www.peopletree.co.uk"><img src="peopletree.png" alt="peopletree.co.uk" class="image" style="width:100px;height:100px">
+              <p><strong>Gear</strong></p>
+              </div>
+              </div>
+      </td>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.lushusa.com"><img src="Lush.png" alt="Lushusa.com" class="image" style="width:100px;height:100px">
+              <p><strong>Cosmetics</strong></p>
+              </div>
+              </div>
+      </td>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.apple.com"><img src="apple.png" alt="Apple.com" class="image" style="width:100px;height:100px">
+              <p><strong>Technology</strong></p>
+              </div>
+              </div>
+      </td>
+      </tr>
+    </table>
+    <!-- End of Brands -->
+</div>
+
+<script>
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+
+
+</body>
+</html>
