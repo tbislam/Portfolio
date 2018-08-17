@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html>
+<title>WECO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+    height: 125%;
+    font-family: "Open Sans";
+
+}
+
+.text-block{
+  margin-left: 410px;
+}
+.image{
+  margin-left: 330px;
+}
+
+.pixs{
+  margin-left: 260px;
+  width: 500px;
+  height: 200px;
+  font-family: "Times New Roman", Times, serif;
+
+
+}
+
+.yolo{
+  margin-left: 320px;
+  margin-top: 150px;
+}
+
+.yolo2{
+  margin-left:320px;
+  margin-top: 150px;
+}
+
+
+.yolo3{
+  margin-left:320px;
+  margin-top: 150px;
+}
+
+
+.Eco{
+  margin-left: 325px
+
+
+}
+
+
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/coffeehouse.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+
+.polaroid{
+  margin-right: 0px;
+}
+
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-green">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-green">Our Mission</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-green">Community</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-green">Sustainable Brands</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-green">Info</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+      <div class = "Eco">
+      <h1 class="w3-xxxxxlarge"><b>W-ECO</b></h1>
+      <h6>Welcome to World Ecology aka <span class="w3-tag">W-ECO</span></h6>
+    </div>
+
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+
+
+      * {box-sizing: border-box;}
+      body {font-family: Verdana, sans-serif;}
+      .mySlides {display: none;}
+      img {vertical-align: middle;}
+
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position:relative;
+        margin: auto;
+
+      }
+
+
+
+
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+
+      }
+      .active {
+        background-color: #717171;
+      }
+
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: ;
+        -webkit-animation-duration: 1.5s;
+        animation-name: ;
+        animation-duration: 1.5s;
+      }
+
+      @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 500px) {
+        .text {font-size: 11px}
+      }
+      </style>
+      </head>
+      <body>
+
+
+
+      <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="a3.jpg" style="width:1320px;height:500px;">
+
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="a4.jpg" style="width:1300px;height:500px;">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="a2.jpg" style="width:1300px;height:500px;">
+
+      </div>
+
+      </div>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 2 seconds
+      }
+      </script>
+
+      </body>
+
+
+
+        </header>
+
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        <body {font-family:"cherry";}>
+
+        /* Style the tab */
+        .tab {
+
+
+            overflow: hidden;
+            border:50px solid #FFFFFF;
+            background-color: #000000;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+
+          background-color: #000000;
+          color: white;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            width: 25%
+
+
+        }
+
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            color: #FFFFFF
+            padding: 15px 15px;
+            -webkit-animation: fadeEffect 1s;
+            animation: fadeEffect 1s;
+
+        }
+
+        /* Fade in tabs */
+        @-webkit-keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        </style>
+        </head>
+        <body>
+
+  <body class="w3-light-grey">
+
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+</div>
+<!-- About Container -->
+
+  <header class="w3-display-container w3-wide" id="home">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 80px;
+        left: 16px;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+
+    .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    }
+    </style>
+    </head>
+    <body>
+
+
+    <div class="container">
+      <img src="forest2.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left"><h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('Footprint Quiz').style.display='block'">Footprint Quiz</button></h6></div>
+      <div class="top-left"><h1 class="w3-jumbo w3-text-white w3-hide-small"><b>OUR MISSION</b></h1></div>
+      <div class="bottom-right"><h4 class="w3-text-white">Take the quiz to see your impact on the environment</h4></div>
+      <div class="centered"><h3 class="w3-text-white"><i>"The first step toward change is awareness." -Nathanial Branden</i></h3></div>
+    </div>
+
+    </body>
+    </html>
+
+
+    <!-- Grid -->
+ <div class="w3-row w3-padding w3-border">
+
+   <!-- Blog entries -->
+   <div class="w3-col l8 s12">
+
+     <!-- Blog entry -->
+     <div class="w3-container w3-white w3-margin w3-padding-large">
+       <div class="w3-center">
+         <h3>An Orangutan's View</h3>
+       </div>
+
+<!--our mission statment and Image-->
+       <div class="w3-justify">
+         <center><img src="monkey.jpg" alt="Orangutan Hanging on a Tree" style="width:650px" style="height:650px" class="w3-padding-16"></center>
+         <p><strong>120,000!</strong> That’s a rough estimate of how many orangutans are left in the world.</p>
+         <p>As more and more palm oil plantations are destroying rainforests, the more orangutans are suffering.
+           Since palm oil is in so many products such as: shampoo, soap, baked goods, cookies, etc, the demand for it is really high.
+           When the orangutan’s homes are destroyed they look for food on the plantations, but then they are tortured and killed
+           because the workers see them as agricultural pests.
+           But why is it a crime to look for food in the area that was forcefully taken away from you?</p>
+         <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>          <p class="w3-clear"></p>
+         <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+           <hr>
+             <div class="w3-col l2 m3">
+             </div>
+             <div class="w3-col l10 m9">
+               <span class="w3-opacity w3-medium"></span>
+             </div>
+         </div>
+       </div>
+     </div>
+     <hr>
+
+     <!-- Image post #1 -->
+     <div class="w3-container w3-white w3-margin w3-padding-large">
+       <div class="w3-center">
+         <h3>What's the New Fashion Trend for Sea Animals?</h3>
+       </div>
+
+       <div class="w3-justify">
+         <center><img src="seal.png" alt="Seal" style="width:650px" style="height:650px" class="w3-padding-16"></center>
+         <p><strong>Is wearing a tight necklace fun?</strong> Not really, so then do you think this
+           seal is having fun?</p>
+         <p>Over 100,000 sea animals die from plastic entanglement or plastic consumption.
+           Even eating a piece of plastic that is as small as your pinky nail is deadly for sea animals.
+           But it’s hard for them to stop themselves when there is about 100 million tons of plastic being thrown into the ocean. </p>
+         <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+         <p class="w3-clear"></p>
+
+         <!-- -->
+         <div id="demo2" style="display:none">
+           <div class="w3-row">
+             <hr>
+             <div class="w3-col l2 m3">
+             </div>
+             <div class="w3-col l10 m9">
+               <span class="w3-opacity w3-medium"</span><
+             </div>
+           </div>
+           <div class="w3-row w3-margin-bottom">
+             <div class="w3-col l2 m3">
+             </div>
+             <div class="w3-col l10 m9">
+               <span class="w3-opacity w3-medium"></span>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <!-- Image post 2 -->
+     <div class="w3-container w3-white w3-margin w3-padding-large">
+       <div class="w3-center">
+         <h3>Everyone Comes Together</h3>
+       </div>
+       <div class="w3-justify">
+         <center><img src="globalWarming.jpg" alt="Animals on Ice" style="width:650px" style="height:650px" class="w3-padding-16"></center>
+         <p><strong>Floods, wildfires, heat waves and ice caps melting</strong> are just the start of global warming.</p>
+         <p>We have the solutions to combat global warming; however, not everyone is trying.
+           But now is the time for everyone to come and work together and try to save our Earth. Everyone has the ability, tools and
+           resources to have a smaller carbon footprint, we just have to use them. The Earth helps to provide us with food, shelter,
+           and many other resources, so shouldn’t we do everything we can to help preserve it.</p>
+         <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+         <p class="w3-clear"></p>
+
+         <!-- images side by side-->
+         <div id="demo3" style="display:none">
+           <hr>
+           <div class="w3-row w3-margin-bottom">
+             <div class="w3-col l2 m3">
+             </div>
+             <div class="w3-col l10 m9">
+               <span class="w3-opacity w3-medium"></span>
+             </div>
+           </div>
+           <div class="w3-row w3-margin-bottom">
+             <div class="w3-col l2 m3">
+             </div>
+             <div class="w3-col l10 m9">
+               <span class="w3-opacity w3-medium"></span>
+             </div>
+           </div>
+           <div class="w3-row w3-margin-bottom">
+             <div class="w3-col l2 m3">
+             </div>
+             <div class="w3-col l10 m9">
+               <span class="w3-opacity w3-medium"></span>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   <!-- END -->
+
+   </div>
+
+   <!-- About/Information menu -->
+   <div class="w3-col l4">
+
+     <!-- Fun Fact -->
+     <div class="w3-margin">
+       <img src="coconut.jpg" alt="img" style="width:389px" style="height:199px">
+       <div class="w3-container w3-black" style="width:390px">
+         <h4>Did you know...</h4>
+         <p>People in third world countries use different parts of the coconut tree and fruit as a natural resource to build mats, baskets, brooms and more.</p>
+       </div>
+     </div>
+     <hr>
+
+
+     <!-- Plant a Tree -->
+     <div class="w3-white w3-margin">
+       <div class="w3-container w3-padding w3-black">
+         <h4>Plant a Tree</h4>
+       </div>
+       <div class="w3-container w3-white">
+         <div class="w3-container w3-display-container" style="height:280px">
+           <img src="cutTree.jpg" style="height:194px">
+           <h5>Plant a tree and name it after you and see its progress.</h5>
+           <span class="w3-display-middle">Your AD Here</span>
+         </div>
+       </div>
+     </div>
+     <hr>
+
+     <!-- Donate/Pic with Link -->
+     <div class="w3-white w3-margin">
+       <div class="w3-container w3-padding w3-black">
+         <h4>Donate Now</h4>
+       </div>
+       <div class="w3-container w3-white">
+         <div class="w3-container w3-display-container" style="height:285px">
+           <img src="panda.jpg" style= "height:195px">
+           <h5><p>Your donation can help make sure that more of these little guys smile.</p></h5>
+           <span class="w3-display-middle"></span>
+         </div>
+       </div>
+     </div>
+     <hr>
+
+     <!-- Post of the day -->
+     <div class="w3-white w3-margin">
+       <div class="w3-container w3-padding w3-black">
+         <h4>Picture of the Day</h4>
+       </div>
+       <div class="w3-container w3-white">
+         <div class="w3-container w3-display-container" style="height:290px">
+           <img src="mountain.jpg" style= "height:225px">
+           <h5><p>Taken in Peru</p></h5>
+           <span class="w3-display-middle"></span>
+         </div>
+       </div>
+     </div>
+     <hr>
+
+     <!-- END of About/Recommendations/Volunteer Menu -->
+   </div>
+
+ <!-- END GRID -->
+ </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footprint Quiz -->
+<div id="Footprint Quiz" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('Footprint Quiz').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">Footprint Quiz</h2>
+      <a href="https://www.earthday.org/take-action/footprint-calculator/" target="_blank">Footprint Quiz!</a>
+  </div>
+</div>
+</div>
+
+      <!-- Footprint Quiz -->
+
+      <div id="Footprint Quiz" class="w3-modal w3-animate-opacity">
+        <div class="w3-modal-content" style="padding:32px">
+          <div class="w3-container w3-white">
+            <i onclick="document.getElementById('Footprint Quiz').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+            <h2 class="w3-wide">Footprint Quiz</h2>
+            <a href="https://www.earthday.org/take-action/footprint-calculator/" target="_blank">Footprint Quiz!</a>
+        </div>
+
+
+
+
+
+      <script>
+
+      // Like button
+      function likeFunction(x) {
+      x.style.fontWeight = "bold";
+      x.innerHTML = "✓ Liked";
+      }
+      </script>
+    </p>
+    </div>
+
+  </header>
+</div>
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:1600px">
+
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Where Should You Volunteer?</b></h1>   <img src="panda.gif" alt="Flowers in Chania">
+    <h6><span class="w3-tag"></span></h6>
+  </header>
+
+<div id="demo2" style="display:none">
+  <div class="w3-row">
+    <hr>
+    <div class="w3-col l2 m3">
+      <img src="/w3images/girl_train.jpg" style="width:90px;">
+    </div>
+    <div class="w3-col l10 m9">
+      <span class="w3-opacity w3-medium"</span><
+    </div>
+  </div>
+  <div class="w3-row w3-margin-bottom">
+    <div class="w3-col l2 m3">
+      <img src="/w3images/girl.jpg" style="width:90px;">
+    </div>
+    <div class="w3-col l10 m9">
+      <span class="w3-opacity w3-medium"></span>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="w3-container w3-white w3-margin w3-padding-large">
+  <div class="w3-center">
+
+    <h3>Jobs, Internships, & Volunteering</h3>
+    <h5>Choose between your three choices </h5>
+
+    <html>
+    <body>
+
+    <img src="e.jpg" alt="Ewaste" width="400" height="330">
+
+    </body>
+    </html>
+
+  </div>
+  <p><a href="https://www.lesecologycenter.org/about/jobs-internships//">Jobs, Internships, & Volunteering</a></p>
+  <h5>In this website you would have 3 different choices to help out. Either on Stewardship at East river park or at E-waste warehouse or Union square tabling!</h5>
+  <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+  <p class="w3-clear"></p>
+
+  <div id="demo2" style="display:none">
+    <div class="w3-row">
+      <hr>
+      <div class="w3-col l2 m3">
+        <img src="/w3images/girl_train.jpg" style="width:90px;">
+      </div>
+      <div class="w3-col l10 m9">
+        <span class="w3-opacity w3-medium"</span><
+      </div>
+    </div>
+    <div class="w3-row w3-margin-bottom">
+      <div class="w3-col l2 m3">
+        <img src="/w3images/girl.jpg" style="width:90px;">
+      </div>
+      <div class="w3-col l10 m9">
+        <span class="w3-opacity w3-medium"></span>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="w3-container w3-white w3-margin w3-padding-large">
+    <div class="w3-center">
+      <h3>NYC Parks Stewardship</h3>
+      <h5>Volunteer in one of their many events</h5>
+
+      <html>
+      <body>
+
+      <img src="planttrees.jpg" alt="Ewaste" width="400" height="330">
+
+      </body>
+      </html>
+
+    </div>
+    <p><a href="https://www.nycgovparks.org/reg/stewardship/">NYC Parks Stewardship</a></p>
+    <h5>You can be part of a special event where you could plant trees in the streets of NYC!</h5>
+    <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+    <p class="w3-clear"></p>
+
+    <div id="demo2" style="display:none">
+      <div class="w3-row">
+        <hr>
+        <div class="w3-col l2 m3">
+          <img src="/w3images/girl_train.jpg" style="width:90px;">
+        </div>
+        <div class="w3-col l10 m9">
+          <span class="w3-opacity w3-medium"</span><
+        </div>
+      </div>
+      <div class="w3-row w3-margin-bottom">
+        <div class="w3-col l2 m3">
+          <img src="/w3images/girl.jpg" style="width:90px;">
+        </div>
+        <div class="w3-col l10 m9">
+          <span class="w3-opacity w3-medium"></span>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+      <div class="w3-center">
+        <h3>Queens Country Farm Museum</h3>
+        <h5>Stay all day if you like!</h5>
+
+        <html>
+        <body>
+
+        <img src="queens.jpg" alt="farm" width="400" height="330">
+
+        </body>
+        </html>
+
+      </div>
+      <p><a href="http://queensfarm.org/volunteer3.html">Queens Country Farm Museum</a></p>
+      <h5>Volunteer in a farm and stay as long as you want</h5>
+      <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+      <p class="w3-clear"></p>
+
+      <div id="demo2" style="display:none">
+        <div class="w3-row">
+          <hr>
+          <div class="w3-col l2 m3">
+            <img src="/w3images/girl_train.jpg" style="width:90px;">
+          </div>
+          <div class="w3-col l10 m9">
+            <span class="w3-opacity w3-medium"</span><
+          </div>
+        </div>
+        <div class="w3-row w3-margin-bottom">
+          <div class="w3-col l2 m3">
+            <img src="/w3images/girl.jpg" style="width:90px;">
+          </div>
+          <div class="w3-col l10 m9">
+            <span class="w3-opacity w3-medium"></span>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Summer Internship: High School Students</h3>
+          <h5>Work hard in helping the enviroment!</h5>
+
+          <html>
+          <body>
+
+          <img src="learning.jpg" alt="central" width="400" height="300">
+
+          </body>
+          </html>
+
+        </div>
+        <p><a href="http://www.centralparknyc.org/visit/programs/summer-internship.html">Summer Internship: High School Students</a></p>
+        <h5>Work 5 days a week in central park. On the 5th day of every week learn about border green careers.</h5>
+        <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+        <p class="w3-clear"></p>
+
+        <div id="demo2" style="display:none">
+          <div class="w3-row">
+            <hr>
+            <div class="w3-col l2 m3">
+              <img src="/w3images/girl_train.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <span class="w3-opacity w3-medium"</span><
+            </div>
+          </div>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="/w3images/girl.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <span class="w3-opacity w3-medium"></span>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-center">
+            <h3>Keeping It Green for Families</h3>
+            <h5>Family day!</h5>
+
+            <html>
+            <body>
+
+            <img src="central.jpg" alt="family" width="400" height="300">
+
+            </body>
+            </html>
+
+          </div>
+          <p><a href="http://www.centralparknyc.org/events/parent-events/keeping-it-green-for-families.html">Keeping It Green for Families</a></p>
+          <h5>You could even volunteer in central park with your family!</h5>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_train.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <span class="w3-opacity w3-medium"</span><
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <span class="w3-opacity w3-medium"></span>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>Service Days</h3>
+              <h5>Not sure where to volunteer, check this site</h5>
+
+              <html>
+              <body>
+
+              <img src="helpers.jpg" alt="helping" width="400" height="300">
+
+              </body>
+              </html>
+
+            </div>
+            <p><a href="https://www.newyorkcares.org/volunteering/service-days/">Service Days</a></p>
+            <h5>In this website it gives you ideas in ways you could volunteer and where you can volunteer in your free time!</h5>
+            <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+            <p class="w3-clear"></p>
+
+            <div id="demo2" style="display:none">
+              <div class="w3-row">
+                <hr>
+                <div class="w3-col l2 m3">
+                  <img src="/w3images/girl_train.jpg" style="width:90px;">
+                </div>
+                <div class="w3-col l10 m9">
+                  <span class="w3-opacity w3-medium"</span><
+                </div>
+              </div>
+              <div class="w3-row w3-margin-bottom">
+                <div class="w3-col l2 m3">
+                  <img src="/w3images/girl.jpg" style="width:90px;">
+                </div>
+                <div class="w3-col l10 m9">
+                  <span class="w3-opacity w3-medium"></span>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="w3-container w3-white w3-margin w3-padding-large">
+              <div class="w3-center">
+                <h3>Volunteer With National River Cleanup</h3>
+                <h5>Which river is the closest?</h5>
+
+                <html>
+                <body>
+
+                <img src="river.jpg" alt="dirty" width="400" height="330">
+
+                </body>
+                </html>
+
+              </div>
+              <p><a href="https://www.americanrivers.org/make-an-impact/national-river-cleanup/volunteers//">Volunteer With National River Cleanup</a></p>
+              <h5>You can use the map to find the nearest river and help clean it up!</h5>
+              <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+              <p class="w3-clear"></p>
+
+
+
+              </div>
+
+            </div>
+
+            </div>
+
+            </div>
+
+
+                <!-- END of About/Recommendations/Volunteer Menu -->
+              </div>
+
+              <!-- END GRID -->
+              </div>
+
+              <!-- END w3-content -->
+              </div>
+
+
+
+                <script>
+
+    <!-- Like Button -->
+    function likeFunction(x) {
+        x.style.fontWeight = "bold";
+        x.innerHTML = "✓ Liked";
+    }
+    </script>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+
+  <div class="w3-content" style="max-width:2500px">
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">RECOMMENDATIONS</span></h5>
+
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Tips');" id="myLink">
+        <div class="w3-col s6 tablink">Tips</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Brands');">
+        <div class="w3-col s6 tablink">Brands</div>
+      </a>
+    </div>
+
+    <div id="Tips" class="w3-container menu w3-padding-48 w3-card">
+      <p class="outset"> Buy a reusable water bottle! 20,000 plastic water bottles per second are sold totalling <strong>500 billion </strong> per year... Most end up in the ocean as 91 percent doesn't get recylced.</p>
+      <p class="outset"> Use energy efficient light bulbs instead of regular bulbs. It will save you electricity, last longer, and save you money! </p>
+      <p class="outset"> Get involved with organizations like <a href="https://350.org"style="color:blue">350.org</a> and <a href="https://www.conservation.org/Pages/default.aspx" style="color:blue">conservation.org</a> where you can join rallies and volunteer in different ways </p>
+      <p class="outset"> While having your skincare routine, go for the organic face wash which is paraben-free, sulfate-free, and cruelty-free. </p>
+      <p class="outset"> Create a homemade compost bin to prevent waste going in landfills and you can provide the soil with nutrients. It will make your kitchen smell better and you will have less garbage </p>
+      <p class="outset"> Wash your Laundry in cold water instead of hot. It saves energy and prevents carbon pollution. Hot water uses 90% energy while cold water uses 10% </p>
+      <p class="outset"> Use public transportation a few times a week to avoid driving and regularly clean out your car to avoid making it heavier with junk. A heavier car will use more gas andmake sure your tires have enough air in them. </p>
+      <p class="outset"> Save water by fxing leaks, taking short showers, turn offf the tap when brushing your teeth, and boil only the water you require for cooking </p>
+      <p class="outset"> Ditch plastic bags. <strong>100 bllion </strong> are used daily and only <strong>1-3%</strong> are recycled. </p>
+    </div>
+
+    <div id="Brands" class="w3-container menu w3-padding-48 w3-card">
+    <!-- Brands -->
+      <table style="width:100%">
+      <tr>
+      <th>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.tesla.com"><img src="tesla.png" alt="tesla.com" class="image" style="width:100px;height:100px">
+              <p>Vehicles</p>
+              </div>
+              </div>
+      </th>
+
+      <th>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.patagonia.com/home/"><img src="pantagonia.png" alt="pantagonia.org" class="image" style="width:100px;height:100px">
+              <p><strong>Clothes</strong></p>
+              </div>
+              </div>
+      </th>
+      <th>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://numitea.com"><img src="Numi.png" alt="numitea.com" class="image" style="width:100px;height:100px">
+              <p><strong>Tea</strong></p>
+              </div>
+              </div>
+      </th></strong></p>
+      </tr>
+      <tr>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.toms.com"><img src="TOMS.jpg" alt="toms.com" class="image" style="width:100px;height:100px">
+              <p><strong>Shoes</strong></p>
+              </div>
+              </div>
+      </td>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.seventhgeneration.com"><img src="7th.png" alt="seventhgeneration.com" class="image" style="text-align:center;width:100px;height:100px" >
+              <p><strong>Home Products</strong></p>
+              </div>
+              </div>
+      </td>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="http://beyondmeat.com"><img src="beyondmeat.png" alt="bodymeat.com" class="image" style="width:100px;height:100px">
+              <p><strong>Food</strong></p>
+              </div>
+              </div>
+      </td>
+      </tr>
+      <tr>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="http://www.peopletree.co.uk"><img src="peopletree.png" alt="peopletree.co.uk" class="image" style="width:100px;height:100px">
+              <p><strong>Gear</strong></p>
+              </div>
+              </div>
+      </td>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.lushusa.com"><img src="Lush.png" alt="Lushusa.com" class="image" style="width:100px;height:100px">
+              <p><strong>Cosmetics</strong></p>
+              </div>
+              </div>
+      </td>
+      <td>
+              <div class="polaroid">
+              <div class="container">
+              <a href="https://www.apple.com"><img src="apple.png" alt="Apple.com" class="image" style="width:100px;height:100px">
+              <p><strong>Technology</strong></p>
+              </div>
+              </div>
+      </td>
+      </tr>
+    </table>
+    <!-- End of Brands -->
+  </div>
+
+  <script>
+
+  // Tabbed Menu
+  function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+  }
+  document.getElementById("myLink").click();
+  </script>
+
+
+
+
+
+
+
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where">
+  <div class="w3-content" style="max-width:1000px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">About the Creators</span></h5>
+
+<div class= "one">
+    <div class = "image">
+
+          <p style="float: center;"><img src="A.jpg" style= "width:50%"></p>
+    </div>
+
+
+      <div class="text-block">
+    <p><span class="w3-tag w3-wide">Alexandra Kusio</span></p>
+  </div>
+    <div class="pixs">
+    <p>My name is Alexandra Kusio and I am going into my Senior year.The inspiration for the project stemmed from my love for the environment. Growing up in Poland, I was constantly surrounded by nature and sustainable development. The goal with this project is to really raise awareness about how a single individual can have such a huge impact on nature in both good and bad ways.</p>
+<p>I think that coding has allowed me to explore multiple mediums of how to get this message across. I have always loved the environment and with this modern touch of coding I was able to combine these two fields to make it more accessible to people from all over. In addition to coding, I also make documentaries.
+<p>Fun Fact: I am currently working on a documentary about my school and the problems we have with recycling.</p>
+</p>
+
+
+    </div>
+  </div>
+
+
+    <div class = "yolo">
+
+          <p style="float: center;"><img src="Mia.jpg" style= "width:50%"></p>
+    </div>
+
+
+      <div class="text-block">
+    <p><span class="w3-tag w3-wide">Mia Diaz</span></p>
+  </div>
+    <div class="pixs">
+      <p>I’m a rising junior in Yonkers High School and a member of their robotics team. I didn’t have any prior programming skills but Girls Who Code has allowed me to explore Computer Science and all the troubles with semicolons in python. I definitely want to pursue STEM in my future but I'm currently exploring all opportunities.
+    </p>
+    <p>I chose to do this project because I, myself, am not aware of the impact each of my actions have on the environment and I would like to know in which ways I can change. I see pictures of icebergs melting and the pollution but didn’t realize the extent worldwide. </p>
+
+    <p>Fun fact: I mispelled raspberry in my 5th grade spelling bee and it has haunted me ever since. </p>
+
+
+
+    </div>
+
+
+    <div class = "yolo2">
+
+          <p style="float: center;"><img src="T.jpg" style= "width:50%"></p>
+    </div>
+
+
+      <div class="text-block">
+    <p><span class="w3-tag w3-wide">Tasnim Islam</span></p>
+  </div>
+    <div class="pixs">
+    <p>Hi, my name is Tasnim Islam and I am a rising senior at Bard High School Early College, Queens. Some things I do in my free time is read, take a walk, watch a show, or just sleep. I love doing hands on work, which is why robotics was one of my favorite topics at the program because we got to work more hands on with the bot.</p>
+
+
+<p>The reason why I wanted to do this topic is because I am a huge animal and tree lover. I love going on hikes with my friends and seeing all the trees and animals that are in the woods. I want more people to care for the animals and forests like I do because as humans we do have the power to help them. We need to realize that the Earth is not just ours, but that we share it with other species.</p>
+
+
+<p>Fun Fact: Everyone’s nickname in my family starts with the letter “B.”
+  </p>
+
+
+
+    </div>
+
+    <div class = "yolo3">
+
+          <p style="float: center;"><img src="Yumaly.jpg" style= "width:50%"></p>
+    </div>
+
+    <div class="text-block">
+  <p><span class="w3-tag w3-wide">Yumaly Guandalupe</span></p>
+</div>
+  <div class="pixs">
+  <p>My name is Yumaly Guadalupe and I am 17 years old, I am going into 12th grade. I started to be interested in this topic around middle school when we were learning about global warming and how it affected animals that have to live in the cold to be able to survive. That's when I realized we wasn't really taking care of earth like we really supposed to do and we need it to start learning how we can change to make the world a better place for everyone.
+</p>
+
+
+
+
+  </div>
+
+
+
+</body>
+</html>

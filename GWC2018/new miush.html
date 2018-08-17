@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="forest2.jpg" alt="Forest" width="1350" height="1000">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>OUR MISSION</b></h1>
+      <h3 class="w3-text-white"><i>"The first step toward change is awareness."</i></h3>
+      <h4 class="w3-text-white">Take the quiz to see your impact on the environment</h4>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('Footprint Quiz').style.display='block'">Footprint Quiz</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>TODAY'S ISSUES</h3>
+        </div>
+
+<!--our mission statment and Image-->
+        <div class="w3-justify">
+          <img src="/w3images/girl_hat.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>Save</strong></p>
+          <p>...</P>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <span class="w3-opacity w3-medium"></span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Image post #1 -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>TITLE HEADING</h3>
+          <h5>Title description, <span class="w3-opacity">April 23, 2016</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="/w3images/man_hat.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p><strong>Hats!</strong> The trend this summer is hats for men!</p>
+          <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+            mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+
+          <!-- -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_train.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <span class="w3-opacity w3-medium"</span><
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <span class="w3-opacity w3-medium"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image post 2 -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>TITLE HEADING</h3>
+          <h5>Title description, <span class="w3-opacity">April 7, 2016</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="/w3images/runway.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Dont miss!</strong> The runway in New York City this weekend is gonna be legendary!</p>
+          <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+            mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+
+          <!-- images side by side-->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_mountain.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <span class="w3-opacity w3-medium"></span>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/boy.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <span class="w3-opacity w3-medium"></span>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_hood.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <span class="w3-opacity w3-medium"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- END -->
+
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+
+      <!-- Fun Fact -->
+      <div class="w3-margin">
+        <img src="coconut.jpg" alt="img" style="width:390px" style="height:200px">
+        <div class="w3-container w3-black" style="width:390px">
+          <h4>Did you know...</h4>
+          <p>People in third world countries use different parts of the coconut tree and fruit as a natural resource to build mats, baskets, brooms and more.</p>
+        </div>
+      </div>
+      <hr>
+
+
+      <!-- Plant a Tree -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Plant a Tree</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container" style="height:280px">
+            <img src="cutTree.jpg" style="height:195px">
+            <h5>Plant a tree and name it after you and see its progress.</h5>
+            <span class="w3-display-middle">Your AD Here</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Donate/Pic with Link -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Donate Now</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container" style="height:285px">
+            <img src="panda.jpg" style= "height:195px">
+            <h5><p>Your donation can help make sure that more of these little guys smile.</p></h5>
+            <span class="w3-display-middle"></span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Post of the day -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Picture of the Day</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container" style="height:290px">
+            <img src="mountain.jpg" style= "height:225px">
+            <h5><p>Taken in Peru</p></h5>
+            <span class="w3-display-middle"></span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- END of About/Recommendations/Volunteer Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footprint Quiz -->
+<div id="Footprint Quiz" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('Footprint Quiz').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">Footprint Quiz</h2>
+      <p>Join the mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('Footprint Quiz').style.display='none'">Footprint Quiz</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer for sponsors -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+
+// Like button
+function likeFunction(x) {
+    x.style.fontWeight = "bold";
+    x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
